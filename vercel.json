@@ -1,8 +1,8 @@
 {
   "redirects": [
     {
-      "source": "/",
-      "destination": "https://xiuscript.com",
+      "source": "/(.*)",
+      "destination": "https://xiuscript.com/$1",
       "permanent": true
     }
   ]
